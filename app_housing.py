@@ -54,7 +54,7 @@ st.map(df)
 st.subheader('Median House Value')
 
 fig, ax = plt.subplots(figsize=(20,5))
-ax.hist(filtered_df['median_house_value'], bins = 30)
+ax.hist(filtered_df['median_house_value'], bins = 30, color='skyblue', edgecolor='black')
 ax.set_title('Histogram of Hedian House Value', fontsize=16)
 ax.set_xlabel('Hedian House Value', fontsize=12)
 ax.set_ylabel('Frequency', fontsize=12)
