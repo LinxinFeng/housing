@@ -44,7 +44,7 @@ st.subheader('Median House Value')
 
 # 绘制直方图
 fig, ax = plt.subplots(figsize=(10, 5))
-ax.hist(filtered_df['median_house_value'], bins=30, color='skyblue', edgecolor='black')
+ax.hist(filtered_df['median_house_value'], bins=30)
 ax.set_title('Histogram of Median House Value', fontsize=16)
 ax.set_xlabel('Median House Value', fontsize=12)
 ax.set_ylabel('Frequency', fontsize=12)
