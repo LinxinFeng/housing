@@ -18,8 +18,8 @@ location_filter = st.sidebar.multiselect(
      df.ocean_proximity.unique())  # defaults
 
 income_level = st.sidebar.radio(
-    "Select income level:"
-    ['Low (<2.5)', 'Medium(>2.5 & <4.5)', 'High(>4.5)']
+    "Select income level:
+    ['Low (<2.5)', 'Medium(>2.5 & <4.5)', 'High(>4.5)']"
 
 )
 
